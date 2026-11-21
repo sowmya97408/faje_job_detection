@@ -1,9 +1,5 @@
 import streamlit as st
 import re
-import subprocess
-import sys
-
-subprocess.check_call([sys.executable, "-m", "pip", "install", "joblib"])
 import joblib
 
 # Load trained machine learning files
